@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Concentration 4</string>
+    <string name="win_text">You win!</string>
+    <string name="restart_text">Restart</string>
+    <string name="quit_text">Quit</string>
+    <string name="title_number_of_cards_text">Please enter number of game cards:</string>
+    <string name="image_content">Image</string>
+    <string name="number_attempts_text">Number of attempts: %d</string>
+</resources>

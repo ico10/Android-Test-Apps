@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/image_start_end_margin"
+            android:layout_marginTop="@dimen/image_start_end_margin"
+            android:layout_marginEnd="@dimen/image_start_end_margin"
+            android:layout_marginBottom="@dimen/image_start_end_margin"
+            android:contentDescription="@string/image_container"
+            android:src="@drawable/movie_icon"
+            app:layout_constraintBottom_toTopOf="@+id/show_movies_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/show_movies_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/image_start_end_margin"
+            android:layout_marginEnd="@dimen/image_start_end_margin"
+            android:layout_marginBottom="@dimen/outer_margin_bottom"
+            android:text="@string/show_movies_button_text"
+            app:layout_constraintBottom_toTopOf="@+id/add_movie_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/add_movie_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/image_start_end_margin"
+            android:layout_marginEnd="@dimen/image_start_end_margin"
+            android:layout_marginBottom="@dimen/outer_margin_bottom"
+            android:text="@string/add_movie_button_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

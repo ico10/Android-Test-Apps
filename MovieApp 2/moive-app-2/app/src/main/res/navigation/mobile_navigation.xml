@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_movie">
+
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="com.sfa.android.moiveapp2.ui.popular.PopularMoviesFragment"
+        android:label="@string/title_movie"
+        tools:layout="@layout/fragment_popular_media">
+        <action
+            android:id="@+id/action_navigation_movie_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_series"
+        android:name="com.sfa.android.moiveapp2.ui.popular.PopularSeriesFragment"
+        android:label="@string/title_series"
+        tools:layout="@layout/fragment_popular_media">
+        <action
+            android:id="@+id/action_navigation_series_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.sfa.android.moiveapp2.ui.lists.UserListsFragment"
+        android:label="@string/title_list"
+        tools:layout="@layout/fragment_user_lists" >
+        <action
+            android:id="@+id/action_navigation_list_to_addListFragment"
+            app:destination="@id/addListFragment" />
+        <action
+            android:id="@+id/action_navigation_list_to_listOfItemsFragment"
+            app:destination="@id/listOfItemsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.sfa.android.moiveapp2.ui.mediadetails.DetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="selectedMedia"
+            app:argType="com.sfa.android.moiveapp2.network.Media" />
+    </fragment>
+    <fragment
+        android:id="@+id/addListFragment"
+        android:name="com.sfa.android.moiveapp2.ui.lists.AddListFragment"
+        android:label="Add list"
+        tools:layout="@layout/fragment_add_list">
+        <action
+            android:id="@+id/action_addListFragment_to_addMediaToListFragment"
+            app:destination="@id/addMediaToListFragment"
+            app:popUpTo="@id/navigation_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMediaToListFragment"
+        android:name="com.sfa.android.moiveapp2.ui.lists.medialists.AddMediaToListFragment"
+        android:label="Add media to list"
+        tools:layout="@layout/fragment_add_media_to_list">
+        <argument
+            android:name="listId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_addMediaToListFragment_to_listOfItemsFragment"
+            app:destination="@id/listOfItemsFragment"
+            app:popUpTo="@id/navigation_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/listOfItemsFragment"
+        android:name="com.sfa.android.moiveapp2.ui.lists.medialists.ListOfItemsFragment"
+        android:label="User list"
+        tools:layout="@layout/fragment_list_of_items">
+        <action
+            android:id="@+id/action_listOfItemsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <argument
+            android:name="listId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_listOfItemsFragment_to_addMediaToListFragment"
+            app:destination="@id/addMediaToListFragment"
+            app:popUpTo="@id/navigation_list" />
+    </fragment>
+</navigation>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/box_one"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/box_margin_size"
+            android:layout_marginTop="@dimen/box_margin_size"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_four"
+            app:layout_constraintEnd_toStartOf="@+id/box_two"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_two"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/box_margin_size"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_five"
+            app:layout_constraintEnd_toStartOf="@+id/box_three"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_one"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_three"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/box_margin_size"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_six"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_two"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_four"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/box_margin_size"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_seven"
+            app:layout_constraintEnd_toStartOf="@+id/box_five"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box_one"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_five"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_eight"
+            app:layout_constraintEnd_toStartOf="@+id/box_six"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_four"
+            app:layout_constraintTop_toBottomOf="@+id/box_two"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_six"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_nine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_five"
+            app:layout_constraintTop_toBottomOf="@+id/box_three"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_seven"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/box_margin_size"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_ten"
+            app:layout_constraintEnd_toStartOf="@+id/box_eight"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box_four"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_eight"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_eleven"
+            app:layout_constraintEnd_toStartOf="@+id/box_nine"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_seven"
+            app:layout_constraintTop_toBottomOf="@+id/box_five"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_nine"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toTopOf="@+id/box_twelve"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_eight"
+            app:layout_constraintTop_toBottomOf="@+id/box_six"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_ten"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/box_margin_size"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/box_eleven"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box_seven"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_eleven"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/box_twelve"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_ten"
+            app:layout_constraintTop_toBottomOf="@+id/box_eight"
+            android:contentDescription="@string/content_box" />
+
+        <ImageView
+            android:id="@+id/box_twelve"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/box_margin_size"
+            android:layout_marginBottom="@dimen/box_margin_size"
+            android:src="@mipmap/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/box_eleven"
+            app:layout_constraintTop_toBottomOf="@+id/box_nine"
+            android:contentDescription="@string/content_box" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

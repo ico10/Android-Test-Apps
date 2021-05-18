@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/first_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/fourth_box"
+            app:layout_constraintEnd_toStartOf="@+id/second_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/second_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/fifth_box"
+            app:layout_constraintEnd_toStartOf="@+id/third_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/first_box"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/third_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/sixth_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/second_box"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/fourth_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/seventh_box"
+            app:layout_constraintEnd_toStartOf="@+id/fifth_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/first_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/fifth_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            app:layout_constraintBottom_toTopOf="@+id/eight_box"
+            app:layout_constraintEnd_toStartOf="@+id/sixth_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/fourth_box"
+            app:layout_constraintTop_toBottomOf="@+id/second_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/sixth_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/ninth_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/fifth_box"
+            app:layout_constraintTop_toBottomOf="@+id/third_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/seventh_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/tenth_box"
+            app:layout_constraintEnd_toStartOf="@+id/eight_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fourth_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/eight_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            app:layout_constraintBottom_toTopOf="@+id/eleventh_box"
+            app:layout_constraintEnd_toStartOf="@+id/ninth_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/seventh_box"
+            app:layout_constraintTop_toBottomOf="@+id/fifth_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ninth_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/twelfth_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/eight_box"
+            app:layout_constraintTop_toBottomOf="@+id/sixth_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/tenth_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/eleventh_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seventh_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/eleventh_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/twelfth_box"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tenth_box"
+            app:layout_constraintTop_toBottomOf="@+id/eight_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/twelfth_box"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/eleventh_box"
+            app:layout_constraintTop_toBottomOf="@+id/ninth_box"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

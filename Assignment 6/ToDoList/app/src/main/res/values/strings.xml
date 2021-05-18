@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+    <string name="add_button_text">Add task</string>
+    <string name="add_task_menu_text">Add task</string>
+    <string name="edit_task_text">Please enter task.</string>
+    <string name="complete_button_text">Complete</string>
+    <string name="save_button_text">Save</string>
+    <string name="delete_button_text">Delete</string>
+    <string name="task_complete_text">Complete</string>
+    <string name="task_not_complete_text">Not complete</string>
+    <string name="task_list_label">Task List</string>
+    <string name="task_details_label">Details</string>
+</resources>

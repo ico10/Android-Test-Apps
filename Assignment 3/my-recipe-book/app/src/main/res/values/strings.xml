@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">My Recipe Book</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_text">Select Recipe:</string>
+    <string name="ingredients_one_text">Ingredients:
+        \n1 tbsp olive oil
+        \n1 onion , finely chopped
+        \n2 garlic cloves , crushed
+        \n120g chorizo , diced
+        \n2 x 400g cans
+        \nchopped tomatoes
+        \n1 tsp caster sugar
+        \n600g fresh gnocchi
+        \n125g mozzarella ball,
+        \ncut into chunks
+        \nsmall bunch of basil , torn
+        \ngreen salad , to serve</string>
+    <string name="description_one_text">STEP 1 – Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8–10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring often, until soft. Heat the grill to high. STEP 2 - Stir ¾ of the mozzarella and most of the basil through the gnocchi. Divide the mixture between six ovenproof ramekins, or put in one baking dish. Top with the remaining mozzarella, then grill for 3 mins, or until the cheese is melted and golden. Season, scatter over the remaining basil and serve with green salad.</string>
+    <string name="recipe_one_name">Chorizo and mozzarella gnocchi bake</string>
+    <string name="content_description">dish_image</string>
+    <string name="recipe_two_name">Butter chicken</string>
+    <string name="ingredients_two_text">Ingredients:
+        \n500g skinless boneless\n
+        chicken thighs
+        \nFor the marinade:
+        \n1 lemon, juiced
+        \n2 tsp ground cumin
+        \n2 tsp paprika
+        \n1-2 tsp hot chilli powder
+        \n200g natural yogurt
+        \nFor the curry
+        \n2 tbsp vegetable oil
+        \n1 large onion, chopped
+        \n3 garlic cloves, crushed
+        \n1 green chilli, deseeded
+        \nand finely chopped
+        \nthumb-sized piece ginger,
+        \ngrated
+        \n1 tsp garam masala
+        \n2 tsp ground fenugreek
+        \n3 tbsp tomato purée
+        \n300ml chicken stock
+        \n50g flaked almonds,
+        \ntoasted</string>
+    <string name="description_two_text">STEP 1 - In a medium bowl, mix all the marinade ingredients with some seasoning. Chop the chicken into bite-sized pieces and toss with the marinade. Cover and chill in the fridge for 1 hr or overnight. STEP 2 - In a large, heavy saucepan, heat the oil. Add the onion, garlic, green chilli, ginger and some seasoning. Fry on a medium heat for 10 mins or until soft. STEP 3 - Add the spices with the tomato purée, cook for a further 2 mins until fragrant, then add the stock and marinated chicken. Cook for 15 mins, then add any remaining marinade left in the bowl. Simmer for 5 mins, then sprinkle with the toasted almonds. Serve with rice, naan bread, chutney, coriander and lime wedges, if you like.</string>
+    <string name="recipe_three_name">Classic lasagne</string>
+    <string name="ingredients_three_text">Ingredients:
+        \n1 tbsp olive oil
+        \n2 rashers smoked streaky bacon
+        \n1 onion, finely chopped
+        \n1 celery stick, finely chopped
+        \n1 medium carrot, grated
+        \n2 garlic cloves, finely chopped
+        \n500g beef mince
+        \n1 tbsp tomato purée
+        \n2 x 400g cans chopped tomatoes
+        \n1 tbsp clear honey
+        \n500g pack fresh egg
+        \nlasagne sheets
+        \n400ml crème fraîche
+        \n125g ball mozzarella,
+        \nroughly torn
+        \n50g freshly grated parmesan
+        \nlarge handful basil leaves,
+        \ntorn (optional)</string>
+    <string name="description_three_text">STEP 1 - Heat the oil in a large saucepan. Use kitchen scissors to snip the bacon into small pieces, or use a sharp knife to chop it on a chopping board. Add the bacon to the pan and cook for just a few mins until starting to turn golden. Add the onion, celery and carrot, and cook over a medium heat for 5 mins, stirring occasionally, until softened. STEP 2 - Add the garlic and cook for 1 min, then tip in the mince and cook, stirring and breaking it up with a wooden spoon, for about 6 mins until browned all over. STEP 3 - Stir in the tomato purée and cook for 1 min, mixing in well with the beef and vegetables. Tip in the chopped tomatoes. Fill each can half full with water to rinse out any tomatoes left in the can, and add to the pan. Add the honey and season to taste. Simmer for 20 mins. STEP 4 - Heat oven to 200C/180C fan/gas 6. To assemble the lasagne, ladle a little of the ragu sauce into the bottom of the roasting tin or casserole dish, spreading the sauce all over the base. Place 2 sheets of lasagne on top of the sauce overlapping to make it fit, then repeat with more sauce and another layer of pasta. Repeat with a further 2 layers of sauce and pasta, finishing with a layer of pasta. STEP 5 - Put the crème fraîche in a bowl and mix with 2 tbsp water to loosen it and make a smooth pourable sauce. Pour this over the top of the pasta, then top with the mozzarella. Sprinkle Parmesan over the top and bake for 25–30 mins until golden and bubbling. Serve scattered with basil, if you like.</string>
+    <string name="ingredients_four_text">Ingredients:
+        \n100g plain flour
+        \n2 large eggs
+        \n300ml milk
+        \n1 tbsp sunflower
+        \nor vegetable oil,
+        \nplus a little
+        \nextra for frying
+        \nlemon wedges
+        \ncaster sugar</string>
+    <string name="description_four_text">STEP 1 - Put 100g plain flour, 2 large eggs, 300ml milk, 1 tbsp sunflower or vegetable oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter. STEP 2 - Set aside for 30 mins to rest if you have time, or start cooking straight away. STEP 3 - Set a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper. STEP 4 - When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go. STEP 5 - Serve with lemon wedges and caster sugar, or your favourite filling. Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months.</string>
+    <string name="ingredients_five_text">Ingredients:
+        \n100g butter,
+        \nplus extra to grease
+        \n100g dark chocolate,
+        \nchopped
+        \n150g light brown
+        \nsoft sugar
+        \n3 large eggs
+        \n½ tsp vanilla extract
+        \n50g plain flour
+        \nsingle cream,
+        \nto serve</string>
+    <string name="description_five_text">STEP 1 - Heat oven to 200C/180C fan/gas 6. Butter 6 dariole moulds or basins well and place on a baking tray. STEP 2 - Put 100g butter and 100g chopped dark chocolate in a heatproof bowl and set over a pan of hot water (or alternatively put in the microwave and melt in 30 second bursts on a low setting) and stir until smooth. Set aside to cool slightly for 15 mins. STEP 3 - Using an electric hand whisk, mix in 150g light brown soft sugar, then 3 large eggs, one at a time, followed by ½ tsp vanilla extract and finally 50g plain flour. Divide the mixture among the darioles or basins. STEP 4 - You can now either put the mixture in the fridge, or freezer until you\'re ready to bake them. Can be cooked straight from frozen for 16 mins, or bake now for 10-12 mins until the tops are firm to the touch but the middles still feel squidgy. STEP 5 - Carefully run a knife around the edge of each pudding, then turn out onto serving plates and serve with single cream.</string>
+    <string name="recipe_four_name">Easy pancakes</string>
+    <string name="recipe_five_name">Chocolate molten cakes</string>
+</resources>

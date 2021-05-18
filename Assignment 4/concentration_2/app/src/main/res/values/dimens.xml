@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="win_text_size">30sp</dimen>
+    <dimen name="attempts_text_size">23sp</dimen>
+    <dimen name="box_margin_size">8dp</dimen>
+    <dimen name="win_game_margin_size">16dp</dimen>
+</resources>

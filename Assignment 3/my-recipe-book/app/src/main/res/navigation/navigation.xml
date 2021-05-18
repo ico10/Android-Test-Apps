@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.sfa.android.myrecipebook.TitleFragment"
+        android:label="My Recipe App">
+        <action
+            android:id="@+id/action_titleFragment_to_recipeOneFragment"
+            app:destination="@id/recipeOneFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_recipeTwoFragment"
+            app:destination="@id/recipeTwoFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_recipeThreeFragment"
+            app:destination="@id/recipeThreeFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_recipeFourFragment"
+            app:destination="@id/recipeFourFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_recipeFiveFragment"
+            app:destination="@id/recipeFiveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeOneFragment"
+        android:name="com.sfa.android.myrecipebook.RecipeOneFragment"
+        android:label="@string/recipe_one_name" />
+    <fragment
+        android:id="@+id/recipeTwoFragment"
+        android:name="com.sfa.android.myrecipebook.RecipeTwoFragment"
+        android:label="@string/recipe_two_name"
+        tools:layout="@layout/fragment_recipe_two" />
+    <fragment
+        android:id="@+id/recipeThreeFragment"
+        android:name="com.sfa.android.myrecipebook.RecipeThreeFragment"
+        android:label="@string/recipe_three_name"
+        tools:layout="@layout/fragment_recipe_three" />
+    <fragment
+        android:id="@+id/recipeFourFragment"
+        android:name="com.sfa.android.myrecipebook.RecipeFourFragment"
+        android:label="@string/recipe_four_name"
+        tools:layout="@layout/fragment_recipe_four" />
+    <fragment
+        android:id="@+id/recipeFiveFragment"
+        android:name="com.sfa.android.myrecipebook.RecipeFiveFragment"
+        android:label="@string/recipe_five_name"
+        tools:layout="@layout/fragment_recipe_five" />
+</navigation>

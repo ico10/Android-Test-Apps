@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="show_movies_button_text">Show movies</string>
+    <string name="add_movie_button_text">Add movie</string>
+    <string name="image_container">imageContainer</string>
+    <string name="add_movie_menu_title">Add movie</string>
+    <string name="movie_title_hint">Title</string>
+    <string name="movie_short_description_hint">Short description</string>
+    <string name="movie_long_description_hint">Long description</string>
+    <string name="create_movie_button_text">Create movie</string>
+    <string name="movie_details_long_description">Long description:</string>
+    <string name="edit_text">Edit</string>
+    <string name="intro_label_text">Movie List App</string>
+    <string name="movies_label">Movies</string>
+    <string name="create_movies_label">Create Movie</string>
+    <string name="movie_details_label">Movie Details</string>
+    <string name="edit_movie_text">Edit Movie</string>
+    <string name="image_not_valid">You need to select an image.</string>
+    <string name="title_not_valid">Title needs to be more than 3 characters.</string>
+    <string name="year_not_valid">Please select a valid year.</string>
+    <string name="short_description_not_valid">Short description needs to be more than 3 characters.</string>
+    <string name="genre_not_valid">Please select a genre.</string>
+    <string name="long_description_not_valid">Long description needs to be more than 10 characters.</string>
+    <string name="title_format">Title:&#160;&#160;&#160;&#160;%s</string>
+    <string name="year_format">Year:&#160;&#160;&#160;&#160;%s</string>
+    <string name="genre_format">Genre:&#160;&#160;&#160;&#160;%s</string>
+    <string name="short_format">Short Description:&#160;&#160;&#160;&#160;%s</string>
+    <string name="long_format">Long Description:&#160;&#160;&#160;&#160;</string>
+    <string name="sort_movie_action_text">Sort Movie</string>
+    <string name="filter_action_text">Filter Movies</string>
+    <string name="initial_release_year_text">Year</string>
+    <string name="sort_alphabetically">Alphabetically</string>
+    <string name="sort_release_date">Release date</string>
+    <string name="filter_action">Action</string>
+    <string name="filter_horror">Horror</string>
+    <string name="filter_comedy">Comedy</string>
+    <string name="filter_fantasy">Fantasy</string>
+    <string name="filter_western">Western</string>
+    <string name="reset_filter">Reset filter</string>
+    <string-array name="genre_array">
+        <item>Genre</item>
+        <item>Action</item>
+        <item>Horror</item>
+        <item>Comedy</item>
+        <item>Fantasy</item>
+        <item>Western</item>
+    </string-array>
+</resources>

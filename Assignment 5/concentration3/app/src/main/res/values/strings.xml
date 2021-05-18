@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Concentration 3</string>
+    <string name="content_box">contentBox</string>
+    <string name="win_text">You win!</string>
+    <string name="attempts_text">Number of attempts:</string>
+    <string name="restart_text">Restart</string>
+    <string name="quit_text">Quit</string>
+    <string name="game_win_text">Number of attempts: %d</string>
+</resources>

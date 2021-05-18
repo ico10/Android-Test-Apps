@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/ratesFragment">
+
+    <fragment
+        android:id="@+id/ratesFragment"
+        android:name="com.sfa.android.currentbitcointracker.ui.rates.RatesFragment"
+        android:label="@string/rates_string"
+        tools:layout="@layout/fragment_rates">
+        <action
+            android:id="@+id/action_ratesFragment_to_savedRatesFragment"
+            app:destination="@id/archiveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/archiveFragment"
+        android:name="com.sfa.android.currentbitcointracker.ui.savedrates.ArchiveFragment"
+        android:label="@string/archive_string"
+        tools:layout="@layout/fragment_archive" />
+</navigation>

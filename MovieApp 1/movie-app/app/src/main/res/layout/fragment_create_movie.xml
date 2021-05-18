@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/create_movie_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/image_start_end_margin"
+            android:layout_marginTop="@dimen/outer_margin_bottom"
+            android:layout_marginEnd="@dimen/image_start_end_margin"
+            android:layout_marginBottom="@dimen/outer_margin_bottom"
+            android:background="@color/teal_700"
+            android:contentDescription="@string/image_container"
+            app:layout_constraintBottom_toTopOf="@+id/movie_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/movie_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_start_end_margin"
+            android:layout_marginEnd="@dimen/text_start_end_margin"
+            android:layout_marginBottom="@dimen/inner_margin_bottom"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="@string/movie_title_hint"
+            android:inputType="textPersonName"
+            android:padding="@dimen/create_padding_value"
+            android:textSize="@dimen/text_size"
+            app:layout_constraintBottom_toTopOf="@+id/movie_release_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/create_movie_image" />
+
+        <TextView
+            android:id="@+id/movie_release_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_start_end_margin"
+            android:layout_marginEnd="@dimen/text_start_end_margin"
+            android:layout_marginBottom="@dimen/inner_margin_bottom"
+            android:background="@drawable/edit_text_border"
+            android:calendarViewShown="false"
+            android:clipToPadding="false"
+            android:padding="@dimen/create_padding_value"
+            android:text="@string/initial_release_year_text"
+            android:textSize="@dimen/text_size"
+            app:layout_constraintBottom_toTopOf="@+id/short_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/movie_title" />
+
+        <EditText
+            android:id="@+id/short_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_start_end_margin"
+            android:layout_marginEnd="@dimen/text_start_end_margin"
+            android:layout_marginBottom="@dimen/inner_margin_bottom"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="@string/movie_short_description_hint"
+            android:inputType="textPersonName"
+            android:padding="@dimen/create_padding_value"
+            android:textSize="@dimen/text_size"
+            app:layout_constraintBottom_toTopOf="@+id/movie_ganre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/movie_release_date" />
+
+        <Spinner
+            android:id="@+id/movie_ganre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_start_end_margin"
+            android:layout_marginEnd="@dimen/text_start_end_margin"
+            android:layout_marginBottom="@dimen/inner_margin_bottom"
+            android:background="@drawable/edit_text_border"
+            android:padding="@dimen/create_padding_value"
+            app:layout_constraintBottom_toTopOf="@+id/long_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/short_description" />
+
+        <EditText
+            android:id="@+id/long_description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/text_start_end_margin"
+            android:layout_marginEnd="@dimen/text_start_end_margin"
+            android:layout_marginBottom="@dimen/outer_margin_bottom"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/movie_long_description_hint"
+            android:inputType="textMultiLine"
+            android:padding="@dimen/create_padding_value"
+            android:textSize="@dimen/text_size"
+            app:layout_constraintBottom_toTopOf="@+id/create_movie_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/movie_ganre" />
+
+        <Button
+            android:id="@+id/create_movie_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_movie_button_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

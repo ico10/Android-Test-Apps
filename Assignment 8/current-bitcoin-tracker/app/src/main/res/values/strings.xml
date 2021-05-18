@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Current Bitcoin Tracker</string>
+    <string name="archive_menu_text">Archive</string>
+    <string name="archive_string">Archive</string>
+    <string name="rates_string">Current rates</string>
+    <string name="currency_archived_text">Currency saved successfully.</string>
+    <string name="currency_deleted_text">Currency deleted.</string>
+    <string name="delete_all_text">Delete all</string>
+    <string name="loading_text">Fetching data...</string>
+    <string name="image_content">Image content</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_end_padding">50dp</dimen>
+    <dimen name="top_bottom_padding">20dp</dimen>
+    <dimen name="icon_margin">3dp</dimen>
+    <dimen name="current_time_text_size">22sp</dimen>
+    <dimen name="current_rates_text_size">18sp</dimen>
+    <dimen name="margin_top_bottom_view">20dp</dimen>
+    <dimen name="inside_margin">100dp</dimen>
+</resources>

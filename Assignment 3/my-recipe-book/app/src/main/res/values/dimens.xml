@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recipe_text_size">30sp</dimen>
+    <dimen name="ingredients_size">15sp</dimen>
+    <dimen name="layout_margin">15sp</dimen>
+    <dimen name="scroll_text_size">16sp</dimen>
+    <dimen name="image_height_value">236dp</dimen>
+    <dimen name="margin_size">8dp</dimen>
+</resources>

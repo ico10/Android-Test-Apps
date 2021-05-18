@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Movie App 2</string>
+    <string name="title_movie">Movies</string>
+    <string name="title_series">Series</string>
+    <string name="title_list">Lists</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="genres_text">Genres:</string>
+    <string name="videos_text">Videos:</string>
+    <string name="add_list_text">Add List</string>
+    <string name="create_list_text_hint">List name</string>
+    <string name="create_list_button_text">Create List</string>
+    <string name="popular_movies_text">Popular movies</string>
+    <string name="popular_series_text">Popular series</string>
+    <string name="add_item_to_list_text">Add media to list</string>
+    <string name="overview_title_text">Overview</string>
+    <string name="reviews_title_text">Reviews</string>
+    <string name="release_date_text">Release date: %s</string>
+    <string name="audio_text">Audio: %s</string>
+    <string name="movie_added_text">Movie added to list.</string>
+    <string name="tv_added_text">Series added to list.</string>
+    <string name="name_not_present">List name is blank.</string>
+    <string name="image_content">Image content</string>
+    <string name="all_media_menu_text">DONE</string>
+    <string name="delete_list_menu_title">Delete list</string>
+    <string name="sort_text">Sort</string>
+    <string name="rating_text">Rating</string>
+    <string name="release_date_menu_text">Release date</string>
+    <string name="title_menu_text">Title</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort_movies"
+        android:icon="@drawable/ic_baseline_sort_24"
+        android:title="@string/sort_movie_action_text"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_sort_alphabetically"
+                android:title="@string/sort_alphabetically" />
+            <item
+                android:id="@+id/action_sort_by_release_date"
+                android:title="@string/sort_release_date" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_baseline_filter_alt_24"
+        android:title="@string/filter_action_text"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_filter_action"
+                android:title="@string/filter_action" />
+            <item
+                android:id="@+id/action_filter_horror"
+                android:title="@string/filter_horror" />
+            <item
+                android:id="@+id/action_filter_comedy"
+                android:title="@string/filter_comedy" />
+            <item
+                android:id="@+id/action_filter_fantasy"
+                android:title="@string/filter_fantasy" />
+            <item
+                android:id="@+id/action_filter_western"
+                android:title="@string/filter_western" />
+            <item
+                android:id="@+id/action_reset_filter"
+                android:title="@string/reset_filter" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_create_room"
+        android:icon="@drawable/add_icon"
+        android:title="@string/add_movie_menu_title"
+        app:showAsAction="ifRoom" />
+</menu>

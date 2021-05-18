@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/gameFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.sfa.android.concentration2.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game">
+        <action
+            android:id="@+id/action_gameFragment_to_gameWinFragment"
+            app:destination="@id/gameWinFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWinFragment"
+        android:name="com.sfa.android.concentration2.GameWinFragment"
+        android:label="GameWinFragment"
+        tools:layout="@layout/fragment_game_win">
+        <action
+            android:id="@+id/action_gameWinFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+</navigation>
